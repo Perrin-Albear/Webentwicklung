@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="8b519d86-c1b2-4c71-a751-fa16198bcd27" name="Webentwicklung lokal" url="http://127.0.0.1">
+        <fileTransfer mountedRoot="C:\xampp\htdocs\Webentwicklung" accessType="MOUNT" port="0" />
+      </webServer>
+      <webServer id="69e510db-998c-412a-b811-5948d1a93756" name="Webentwicklung Test" url="http://files.000webhost.com">
+        <fileTransfer host="files.000webhost.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
