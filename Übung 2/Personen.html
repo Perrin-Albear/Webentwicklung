@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personen</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/03017de4c1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="jumbotron text-center" style="padding-bottom: 1rem; padding-top: 5px">
+        <h1 class="card-header">Aufgabenplaner: Personen</h1>
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+            <ul class="list-group">
+                <li class="list-group-item"><a href="index.html" class="text-decoration-none" >Login</a></li>
+                <li class="list-group-item"><a href="Projekte.html" class="text-decoration-none" >Projekte</a></li>
+                <li class="list-group-item"><a href="Todos.html" class="text-decoration-none" >Aktuelles Projekt</a></li>
+                <div style="padding-left: 2em">
+                    <li class="list-group-item"><a href="Reiter.html" class="text-decoration-none" >Reiter</a></li>
+                    <li class="list-group-item"><a href="Aufgaben.html" class="text-decoration-none" >Aufgaben</a></li>
+                    <li class="list-group-item"><a href="Personen.html" class="text-decoration-none" >Personen</a></li>
+                </div>
+            </ul>
+        </div>
+        <div class="col-md-8">
+            <form>
+                <table class="table">
+                    <thead class="table-light">
+                    <th scope="col">Name</th>
+                    <th scope="col">E-Mail</th>
+                    <th scope="col">In Projekt</th>
+                    <th scope="col"></th>
+                    </thead>
+                    <tbody style="border-top: none">
+                    <tr>
+                        <td>David Scholtz</td>
+                        <td>nichtmeine@richtige.de</td>
+                        <td>
+                            <input type="checkbox" class="form-check-input" id="Check1">
+                        </td>
+                        <td>
+                            <div style="float: right">
+                                <i class="far fa-edit" style="color: deepskyblue"></i>
+                                <i class="far fa-trash-alt" style="color: deepskyblue"></i>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Max Mustermann</td>
+                        <td>mustermann@muster.de</td>
+                        <td>
+                            <input type="checkbox" class="form-check-input" id="Check2">
+                        </td>
+                        <td>
+                            <div style="float: right">
+                                <i class="far fa-edit" style="color: deepskyblue"></i>
+                                <i class="far fa-trash-alt" style="color: deepskyblue"></i>
+                            </div>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <h3 class="font-weight-bold">Bearbeiten/Erstellen:</h3>
+                <div class="form-group" style="margin-bottom: 1em">
+                    <label for="UserName">Username:</label>
+                    <input type="text" class="form-control" id="UserName" placeholder="Username"></input>
+                </div>
+                <div class="form-group" style="margin-bottom: 1em">
+                    <label for="EmailAdresse">E-Mail-Adresse:</label>
+                    <input type="email" class="form-control" id="EmailAdresse" placeholder="E-Mail-Adresse eingeben"></input>
+                </div>
+                <div class="form-group" style="margin-bottom: 1em">
+                    <label for="Passwort">Passwort:</label>
+                    <input type="password" class="form-control" id="Passwort" placeholder="Passwort"></input>
+                </div>
+                <div class="form-check" style="margin-bottom: 1em">
+                    <input type="checkbox" class="form-check-input" id="ProjektZuordnen">
+                    <label class="form-check-label" for="ProjektZuordnen">Dem Projekt zuordnen</label>
+                </div>
+                <button type="submit" class="btn btn-primary" style="margin-bottom: 1em">Speichern</button>
+                <button type="submit" class="btn btn-info" style="margin-bottom: 1em">Reset</button>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
